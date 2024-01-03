@@ -1,5 +1,6 @@
-import { Box, Button, VStack, HStack, Text, Center, Image } from "native-base";
+import { Box, Button, VStack, HStack, Text, Center, Image } from "@gluestack-ui/themed";
 import React, { useEffect } from "react";
+import { StyleSheet } from "react-native";
 import { Drawer } from "expo-router/drawer";
 import { DrawerContentScrollView, DrawerItem } from "@react-navigation/drawer";
 import {
@@ -23,7 +24,8 @@ const CustomDrawerContent = (props) => {
       <HStack>
         <Image
           source={require("../../assets/images/govlogo.png")}
-          style={{width: 43, height: 42}}
+          width={42}
+          height={43}
         />
         <Box>
           <Text>Department of Bangladesh Haor and Wetlands Development</Text>
@@ -114,3 +116,33 @@ export default function Layout() {
   );
 }
 
+const styles = StyleSheet.create({
+  navItemLabel: {
+    marginLeft: -20,
+    fontSize: 18,
+  },
+  userInfoWrapper: {
+    flexDirection: "row",
+    paddingHorizontal: 10,
+    paddingVertical: 20,
+    borderBottomColor: "#ccc",
+    borderBottomWidth: 1,
+    marginBottom: 10,
+  },
+  userImg: {
+    borderRadius: 40,
+  },
+  userDetailsWrapper: {
+    marginTop: 25,
+    marginLeft: 10,
+  },
+  userName: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  userEmail: {
+    fontSize:16,
+    fontStyle: 'italic',
+    textDecorationLine: 'underline',
+  }
+});
