@@ -1,6 +1,6 @@
-import { Box, Button, VStack, HStack, Text, Center, Image } from "@gluestack-ui/themed";
+import { Box, Button, VStack, HStack, Center } from "@gluestack-ui/themed";
 import React, { useEffect } from "react";
-import { StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 import { Drawer } from "expo-router/drawer";
 import { DrawerContentScrollView, DrawerItem } from "@react-navigation/drawer";
 import {
@@ -8,101 +8,128 @@ import {
   AntDesign,
   MaterialIcons,
   Ionicons,
+  FontAwesome5
 } from "@expo/vector-icons";
 import { router, usePathname } from "expo-router";
 
 const CustomDrawerContent = (props) => {
   const pathname = usePathname();
+  const itemHoverColor = "#35B769";
+  const itemHoverRevereColor = "#FFFFFF";
 
   useEffect(() => {
     console.log(pathname);
   }, [pathname]);
 
   return (
-    <DrawerContentScrollView {...props}>
+    <DrawerContentScrollView {...props} contentContainerStyle={{ flexGrow: 1, justifyContent: 'space-between', flexDirection: 'column' }}
+    style={{ backgroundColor: 'white', paddingBottom: 20 }}>
 
-      <HStack>
+      <View style={styles.userInfoWrapper}>
         <Image
           source={require("../../assets/images/govlogo.png")}
-          width={42}
-          height={43}
+          style={{width: 43, height: 42}}
         />
-        <Box>
-          <Text>Department of Bangladesh Haor and Wetlands Development</Text>
-        </Box>
-      </HStack>
+        <View style={{marginLeft: 10}}>
+          <Text style={{color: 'black', fontSize: 12, fontWeight: '400', maxWidth: 180}}>Department of Bangladesh Haor and Wetlands Development</Text>
+        </View>
+      </View>
+
       <DrawerItem
         icon={({ color, size }) => (
           <Feather
             name="list"
-            size={size}
+            size={20}
             color={pathname == "/feed" ? "#fff" : "#000"}
           />
         )}
-        label={"Feed"}
+        label={"LIST OF HAORS"}
         labelStyle={[
           styles.navItemLabel,
           { color: pathname == "/feed" ? "#fff" : "#000" },
         ]}
-        style={{ backgroundColor: pathname == "/feed" ? "#333" : "#fff" }}
+        style={{ backgroundColor: pathname == "/feed" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
           router.push("/(drawer)/(tabs)/feed");
         }}
       />
       <DrawerItem
         icon={({ color, size }) => (
-          <AntDesign
-            name="user"
-            size={size}
+          <FontAwesome5
+            name="building"
+            size={20}
             color={pathname == "/profile" ? "#fff" : "#000"}
           />
         )}
-        label={"Profile"}
+        label={"HAOR BUILDING"}
         labelStyle={[
           styles.navItemLabel,
           { color: pathname == "/profile" ? "#fff" : "#000" },
         ]}
-        style={{ backgroundColor: pathname == "/profile" ? "#333" : "#fff" }}
+        style={{ backgroundColor: pathname == "/profile" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
           router.push("/(drawer)/(tabs)/profile");
         }}
       />
       <DrawerItem
         icon={({ color, size }) => (
-          <MaterialIcons
-            name="favorite-outline"
-            size={size}
-            color={pathname == "/favourites" ? "#fff" : "#000"}
+          <FontAwesome5
+            name="water"
+            size={20}
+            color={pathname == "/settings" ? "#fff" : "#000"}
           />
         )}
-        label={"Favourites"}
+        label={"RIVERS"}
         labelStyle={[
           styles.navItemLabel,
           { color: pathname == "/favourites" ? "#fff" : "#000" },
         ]}
-        style={{ backgroundColor: pathname == "/favourites" ? "#333" : "#fff" }}
+        style={{ backgroundColor: pathname == "/favourites" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
           router.push("/favourites");
         }}
       />
       <DrawerItem
         icon={({ color, size }) => (
-          <Ionicons
-            name="settings-outline"
-            size={size}
+          <Feather
+            name="users"
+            size={20}
             color={pathname == "/settings" ? "#fff" : "#000"}
           />
         )}
-        label={"Settings"}
+        label={"ABOUT US"}
         labelStyle={[
           styles.navItemLabel,
           { color: pathname == "/settings" ? "#fff" : "#000" },
         ]}
-        style={{ backgroundColor: pathname == "/settings" ? "#333" : "#fff" }}
+        style={{ backgroundColor: pathname == "/settings" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
           router.push("/settings");
         }}
       />
+      <DrawerItem
+        icon={({ color, size }) => (
+          <Feather
+            name="mail"
+            size={20}
+            color={pathname == "/feed" ? "#fff" : "#000"}
+          />
+        )}
+        label={"CONTACT US"}
+        labelStyle={[
+          styles.navItemLabel,
+          { color: pathname == "/settings" ? "#fff" : "#000" },
+        ]}
+        style={{ backgroundColor: pathname == "/settings" ? itemHoverColor : itemHoverRevereColor }}
+        onPress={() => {
+          router.push("/settings");
+        }}
+      />
+      
+      <View style={{marginLeft: 10, flex: 1, justifyContent: 'flex-end'}}>
+        <Text style={{color: 'black', opacity: .5, fontSize: 10, fontWeight: '400'}}>2023 Copyright Amar Haor. All rights reserved. Developed by Technomole Creations ltd</Text>
+      </View>
+
     </DrawerContentScrollView>
   );
 };
@@ -119,30 +146,14 @@ export default function Layout() {
 const styles = StyleSheet.create({
   navItemLabel: {
     marginLeft: -20,
-    fontSize: 18,
+    fontSize: 14,
   },
   userInfoWrapper: {
     flexDirection: "row",
-    paddingHorizontal: 10,
+    paddingHorizontal: 15,
     paddingVertical: 20,
     borderBottomColor: "#ccc",
     borderBottomWidth: 1,
-    marginBottom: 10,
-  },
-  userImg: {
-    borderRadius: 40,
-  },
-  userDetailsWrapper: {
-    marginTop: 25,
-    marginLeft: 10,
-  },
-  userName: {
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-  userEmail: {
-    fontSize:16,
-    fontStyle: 'italic',
-    textDecorationLine: 'underline',
+    marginBottom: 20,
   }
 });
