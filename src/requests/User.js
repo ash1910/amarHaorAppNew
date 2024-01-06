@@ -1,5 +1,4 @@
 import { R3ClientWithoutAuth, R3Client, R3ClientFileDownload } from "../clients/R3Client";
-import { getData } from "../functions/AsyncStorageFunctions";
 
 const login_endpoint = "login";
 const getUser = (email, password) => {
@@ -221,4 +220,22 @@ const getGalleries = () => {
   return R3ClientWithoutAuth.get("galleries");
 };
 
-export { getGalleries };
+const getHome = () => {
+  return R3ClientWithoutAuth.get("home");
+};
+
+const getHaorList = () => {
+  return R3ClientWithoutAuth.get("haor_list");
+};
+const getDistrictList = () => {
+  return R3ClientWithoutAuth.get("district_list");
+};
+const getUpazilaList = () => {
+  return R3ClientWithoutAuth.get("upazila_list");
+};
+
+const getHaorDetail = (id) => {
+  return R3ClientWithoutAuth.get(`haor-detail/${id}`);
+};
+
+export { getGalleries, getHome, getHaorList, getDistrictList, getUpazilaList, getHaorDetail };
