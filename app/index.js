@@ -3,7 +3,7 @@ import React from 'react'
 import { Link, Redirect } from 'expo-router'
 
 export default function Page() {
-  return <Redirect href={"(drawer)/(tabs)/feed"} />;
+  return <Redirect href={"(drawer)/(tabs)/home"} />;
   return (
     <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
       <Text style={{fontSize:30}}>Welcome to our app</Text>
