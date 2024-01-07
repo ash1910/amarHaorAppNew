@@ -1,4 +1,4 @@
-import { View, Text, Button, Alert, Image, FlatList, TouchableOpacity } from 'react-native'
+import { View, Text, Button, Alert, Image, FlatList, TouchableOpacity, TextInput } from 'react-native'
 import React, {useEffect, useState, useRef} from 'react';
 import { router } from 'expo-router'
 import {
@@ -23,6 +23,7 @@ export default function Page() {
   const [upazilaList, setUpazilaList] = useState([]);
   const [haorFilterList, setHaorFilterList] = useState([]);
   const [selectedLanguage, setSelectedLanguage] = useState();
+  const [searchHaorName, onChangeSearchHaorName] = useState('');
 
   let isMounted = true;
 
@@ -70,11 +71,25 @@ export default function Page() {
 
   return (
     <View style={{flex:1,justifyContent:'center',alignItems:'center', backgroundColor: '#ffffff'}}>
-      <Text style={{fontSize:18}}>Search Page</Text>
-
-      <View style={{flex:1, width: width, flexDirection: 'row', justifyContent: 'space-evenly'}}>
-          <View style={{width: width/2,}}>
-            <Text style={{color: '#1D1B20', fontSize: 18, lineHeight: 24, textAlign: 'center'}}>Search District</Text>
+      <View style={{width: '100%'}}>
+        <TextInput
+          style={{
+            height: 40,
+            margin: 8,
+            borderWidth: 1,
+            borderColor: '#cccccc',
+            padding: 10,
+          }}
+          onChangeText={onChangeSearchHaorName}
+          value={searchHaorName}
+          placeholder="Search Haor by Name"
+          keyboardType="default"
+          clearButtonMode="always"
+        />
+      </View>
+      <View style={{flexDirection: 'row', gap: 8, marginHorizontal: 8, marginBottom: 8}}>
+          <View style={{width: width/2-12, borderWidth: 1, borderColor: '#cccccc'}}>
+            <Text style={{color: '#cccccc', fontSize: 16, lineHeight: 24, textAlign: 'center'}}>Search District</Text>
             <Picker
               mode='dropdown'
               selectedValue={selectedLanguage}
@@ -91,8 +106,8 @@ export default function Page() {
               <Picker.Item label="JavaScript 5" value="js5" />
             </Picker>
           </View>
-          <View style={{width: width/2}}>
-            <Text style={{color: '#1D1B20', fontSize: 18, lineHeight: 24, textAlign: 'center'}}>Search Upazila</Text>
+          <View style={{width: width/2-12, borderWidth: 1, borderColor: '#cccccc'}}>
+            <Text style={{color: '#cccccc', fontSize: 16, lineHeight: 24, textAlign: 'center'}}>Search Upazila</Text>
             <Picker
               mode='dropdown'
               selectedValue={selectedLanguage}
