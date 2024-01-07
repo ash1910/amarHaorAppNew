@@ -21,8 +21,10 @@ export default function Page() {
   const [haorList, setHaorList] = useState([]);
   const [districtList, setDistrictList] = useState([]);
   const [upazilaList, setUpazilaList] = useState([]);
+  const [upazilaListByDistrict, setUpazilaListByDistrict] = useState([]);
   const [haorFilterList, setHaorFilterList] = useState([]);
-  const [selectedLanguage, setSelectedLanguage] = useState();
+  const [searchDistrict, setSearchDistrict] = useState();
+  const [searchUpazila, setSearchUpazila] = useState();
   const [searchHaorName, onChangeSearchHaorName] = useState('');
 
   let isMounted = true;
@@ -36,7 +38,6 @@ export default function Page() {
         let response_dis = await getDistrictList();
         let response_upa = await getUpazilaList();
 
-        setHaorList(response.data);
         setDistrictList(response_dis.data ? response_dis.data : []);
         setUpazilaList(response_upa.data ? response_upa.data: []);
 
@@ -45,14 +46,17 @@ export default function Page() {
             let item = {
                 id : x.id,
                 name : x.name,
-                dis : response_dis.data[x.district_id],
+                d_id : x.district_id,
+                u_id : x.upazila_id,
+                dis : response_dis.data.find(u => u.id === x.district_id).name,
                 upa : response_upa.data.find(u => u.id === x.upazila_id).name ,
             }
             itemsList.push(item);
         });
         
+        setHaorList(itemsList);
         setHaorFilterList(itemsList);
-        //console.log(JSON.stringify(itemsList, null, 5))
+        //console.log(JSON.stringify(districtList, null, 5))
       }
     }
     else{
@@ -61,6 +65,43 @@ export default function Page() {
     if (isMounted){
       setLoading(false);
     }
+  };
+
+  const filterHaorListByDistrict = (id) => {
+    onChangeSearchHaorName('');
+    setSearchUpazila('');
+    if( id === 'All' ){
+      setHaorFilterList(haorList)
+      return
+    }
+    let hL = haorList.filter(u => u.d_id === id)
+    setHaorFilterList(hL)
+  };
+
+  const filterHaorListByUpazila = (id) => {
+    if( id === 'All' ){
+      filterHaorListByDistrict(searchDistrict)
+      return
+    }
+    let hL = haorList.filter(u => u.u_id === id)
+    setHaorFilterList(hL)
+    onChangeSearchHaorName('');
+  };
+
+  const filterHaorListByName = (name) => {
+    var hL = haorList;
+
+    if( searchUpazila && searchUpazila !== 'All' ){
+      hL = haorList.filter(u => u.u_id === searchUpazila && u.name.toLowerCase().includes(name.trim().toLowerCase()))
+    }
+    else if( searchDistrict && searchDistrict !== 'All' ){
+      hL = haorList.filter(u => u.d_id === searchDistrict && u.name.toLowerCase().includes(name.trim().toLowerCase()))
+    }
+    else if( name && name !== '' ){
+      hL = haorList.filter(u => u.name.toLowerCase().includes(name.trim().toLowerCase()))
+    }
+    
+    setHaorFilterList(hL)
   };
 
   useEffect(() => {
@@ -80,48 +121,51 @@ export default function Page() {
             borderColor: '#cccccc',
             padding: 10,
           }}
-          onChangeText={onChangeSearchHaorName}
+          onChangeText={ (val) => {
+            onChangeSearchHaorName(val);
+            filterHaorListByName(val);
+          }}
           value={searchHaorName}
           placeholder="Search Haor by Name"
           keyboardType="default"
-          clearButtonMode="always"
+          clearButtonMode="while-editing"
         />
       </View>
       <View style={{flexDirection: 'row', gap: 8, marginHorizontal: 8, marginBottom: 8}}>
           <View style={{width: width/2-12, borderWidth: 1, borderColor: '#cccccc'}}>
             <Text style={{color: '#cccccc', fontSize: 16, lineHeight: 24, textAlign: 'center'}}>Search District</Text>
             <Picker
+              itemStyle={{fontSize: 16}}
               mode='dropdown'
-              selectedValue={selectedLanguage}
-              onValueChange={(itemValue, itemIndex) =>
-                setSelectedLanguage(itemValue)
+              selectedValue={searchDistrict}
+              onValueChange={(itemValue, itemIndex) => { setSearchDistrict(itemValue);
+                  let upL = upazilaList.filter(u => u.district_id === itemValue)
+                  setUpazilaListByDistrict(upL)
+                  filterHaorListByDistrict(itemValue)
+                }
               }>
-              <Picker.Item label="Java" value="java" />
-              <Picker.Item label="JavaScript 2" value="js2" />
-              <Picker.Item label="Java 2" value="java2" />
-              <Picker.Item label="JavaScript 3" value="js3" />
-              <Picker.Item label="Java 3" value="java3" />
-              <Picker.Item label="JavaScript 4" value="js4" />
-              <Picker.Item label="Java 4" value="java4" />
-              <Picker.Item label="JavaScript 5" value="js5" />
+              <Picker.Item label="All" value="All" key="All" />
+              {districtList && districtList?.map((x, index) => 
+                  <Picker.Item label={x.name} value={x.id} key={x.id} />
+                )
+              }
             </Picker>
           </View>
           <View style={{width: width/2-12, borderWidth: 1, borderColor: '#cccccc'}}>
             <Text style={{color: '#cccccc', fontSize: 16, lineHeight: 24, textAlign: 'center'}}>Search Upazila</Text>
             <Picker
+              itemStyle={{fontSize: 16}}
               mode='dropdown'
-              selectedValue={selectedLanguage}
-              onValueChange={(itemValue, itemIndex) =>
-                setSelectedLanguage(itemValue)
+              selectedValue={searchUpazila}
+              onValueChange={(itemValue, itemIndex) => { setSearchUpazila(itemValue)
+                  filterHaorListByUpazila(itemValue)
+                }
               }>
-              <Picker.Item label="Java" value="java" />
-              <Picker.Item label="JavaScript 2" value="js2" />
-              <Picker.Item label="Java 2" value="java2" />
-              <Picker.Item label="JavaScript 3" value="js3" />
-              <Picker.Item label="Java 3" value="java3" />
-              <Picker.Item label="JavaScript 4" value="js4" />
-              <Picker.Item label="Java 4" value="java4" />
-              <Picker.Item label="JavaScript 5" value="js5" />
+                <Picker.Item label="All" value="All" key="All" />
+                {upazilaListByDistrict && upazilaListByDistrict?.map((x, index) => 
+                    <Picker.Item label={x.name} value={x.id} key={x.id} />
+                  )
+                }
             </Picker>
           </View>
       </View>
