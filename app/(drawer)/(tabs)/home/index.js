@@ -27,17 +27,17 @@ export default function Page() {
   {
     name: 'Statistics',
     icon: 'insert-chart',
-    route: 'explore'
+    route: '/home/statistics'
   },
   {
     name: 'Travel Essentials',
     icon: 'directions-bus',
-    route: 'explore'
+    route: '/home/travel'
   },
   {
     name: 'Livelihoods',
     icon: 'rowing',
-    route: 'explore'
+    route: '/home/pages/livelihoods'
   }];
 
   let isMounted = true;
@@ -91,7 +91,7 @@ export default function Page() {
       </View>
 
       <View style={{width: '100%', marginVertical: 0,}}>
-        <Text style={{fontSize: 16, color: '#49454F', fontWeight: 500, alignItems: 'left', paddingVertical: 8}}>Explore the Haors</Text>
+        <Text style={{fontSize: 16, color: '#49454F', fontWeight: 500, alignItems: 'flex-start', paddingVertical: 8}}>Explore the Haors</Text>
         <FlatList
           horizontal
           ItemSeparatorComponent={
@@ -115,7 +115,7 @@ export default function Page() {
       </View>
 
       <View style={{width: '100%', marginVertical: 16,}}>
-        <Text style={{fontSize: 16, color: '#49454F', fontWeight: 500, alignItems: 'left', paddingVertical: 8}}>Conservation Effects</Text>
+        <Text style={{fontSize: 16, color: '#49454F', fontWeight: 500, paddingVertical: 8}}>Conservation Effects</Text>
         <FlatList
           horizontal
           ItemSeparatorComponent={
@@ -135,6 +135,30 @@ export default function Page() {
             </TouchableOpacity>
           )}
           />
+      </View>
+
+      <View style={{width: '100%', marginVertical: 16,}}>
+        <TouchableOpacity style={{width: '100%', height: 80, alignItems:'center', flexDirection: 'row', borderWidth: 1, borderColor: '#CAC4D0'}} activeOpacity={1} onPress={() => router.push("/home/map")} >
+          <View style={{ width: width - 112, height: '100%', justifyContent: "center", backgroundColor: '#FEF7FF', padding: 16 }}>
+            <Text style={{color: '#1D1B20', fontSize: 16, fontWeight: 500, paddingBottom: 8 }}>Haor Maps</Text>
+            <Text style={{color: '#1D1B20', fontSize: 14, fontWeight: 400, }}>Interactive map of Haors</Text>
+          </View>
+          <Image style={{width: 75, height: 75, }} source={require("../../../../assets/media/map_icon.png")}/>
+        </TouchableOpacity>
+        <TouchableOpacity style={{width: '100%', height: 80, alignItems:'center', flexDirection: 'row', borderWidth: 1, borderColor: '#CAC4D0', marginVertical: 16}} activeOpacity={1} onPress={() => router.push("/home/resort")} >
+          <View style={{ width: width - 112, height: '100%', justifyContent: "center", backgroundColor: '#FEF7FF', padding: 16 }}>
+            <Text style={{color: '#1D1B20', fontSize: 16, fontWeight: 500, paddingBottom: 8 }}>Resort List</Text>
+            <Text style={{color: '#1D1B20', fontSize: 14, fontWeight: 400, }}>Locations and contacts</Text>
+          </View>
+          <Image style={{width: 75, height: 75, }} source={require("../../../../assets/media/resort_icon.png")}/>
+        </TouchableOpacity>
+        <TouchableOpacity style={{width: '100%', height: 80, alignItems:'center', flexDirection: 'row', borderWidth: 1, borderColor: '#CAC4D0'}} activeOpacity={1} onPress={() => router.push("/home/travel")} >
+          <View style={{ width: width - 112, height: '100%', justifyContent: "center", backgroundColor: '#FEF7FF', padding: 16 }}>
+            <Text style={{color: '#1D1B20', fontSize: 16, fontWeight: 500, paddingBottom: 8 }}>Nearby Attractions</Text>
+            <Text style={{color: '#1D1B20', fontSize: 14, fontWeight: 400, }}>Nearby Attractions</Text>
+          </View>
+          <Image style={{width: 75, height: 75, }} source={require("../../../../assets/media/travel_icon.png")}/>
+        </TouchableOpacity>
       </View>
       
     </ScrollView>

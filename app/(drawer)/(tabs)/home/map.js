@@ -10,7 +10,7 @@ import {
 } from "@expo/vector-icons";
 
 import {useNavigation} from '@react-navigation/native';
-import { getHaorDetail } from "../../../../src/requests/User";
+import { getHome } from "../../../../src/requests/User";
 import {width, height} from '../../../../src/utils/validator';
 
 import HTML, { useInternalRenderer, HTMLElementModel, HTMLContentModel } from "react-native-render-html";
@@ -19,22 +19,21 @@ import IframeRenderer, { iframeModel } from "@native-html/iframe-plugin";
 import ImageViewer from 'react-native-image-zoom-viewer';
 
 export default function Page() {
-  const { id } = useLocalSearchParams();
   const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
-  const [haorDetail, setHaorDetail] = useState({});
+  const [home, setHome] = useState({});
 
   let isMounted = true;
   var web_url = "https://amarhaor.com/";
 
-  const loadHaorDetail = async () => {
+  const loadHome = async () => {
     setLoading(true);
-    let response = await getHaorDetail(id);
+    let response = await getHome();
     //alert(JSON.stringify(response, null, 5)) 
     if (response.ok && response.data) {
       if (isMounted){
-
-        setHaorDetail(response.data);
+        setHome(response.data);
+        //console.log(JSON.stringify(response, null, 5))
       }
     }
     else{
@@ -45,9 +44,10 @@ export default function Page() {
     }
   };
 
+
   useEffect(() => {
     isMounted = true;
-    loadHaorDetail();
+    loadHome();
     return () => { isMounted = false };
   }, [navigation]);
 
@@ -107,7 +107,7 @@ export default function Page() {
     span: {
     }, 
     img: { 
-      marginVertical: 10,
+      marginVertical: 10
     },
     ul:{
       marginBottom: '10px',
@@ -140,56 +140,14 @@ export default function Page() {
 
   return (
     <>
-        <ScrollView style={{ flex: 1 }} contentContainerStyle={{paddingBottom: 10}}>
-          <View>
-            <Image style={{justifyContent: 'center', height: 220, width: width, backgroundColor: '#ccc'}} source={{uri:web_url+haorDetail.header_img}}/>
-            <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "center", alignItems: "center", backgroundColor: 'rgba(0,0,0,.3)' }}>
-              <Text style={{color: '#FFFFFF', fontSize: 28, fontWeight: 500, marginBottom: 10}}>{haorDetail.name}</Text>
-              <Text style={{color: '#FFFFFF', fontSize: 14, fontWeight: 400}}>Area: {haorDetail.area}</Text>
-            </View>
-            <TouchableOpacity onPress={() => router.back()} style={{position: 'absolute', left: 12, top: 12}}><MaterialIcons name="arrow-back" size={28} color={"#F2F2F2"}/></TouchableOpacity>
+        <ScrollView style={{ flex: 1 }} contentContainerStyle={{padding: 16, backgroundColor: '#fff'}}>
+          <View style={{flex: 1, alignContent: 'center', alignItems: 'center'}}>
+            <Text style={{color: '#000', fontSize: 28, fontWeight: 500, margin: 10}}>Haor Maps</Text>
+            <TouchableOpacity onPress={() => router.back()} style={{position: 'absolute', left: 12, top: 12}}><MaterialIcons name="arrow-back" size={28} color={"#000"}/></TouchableOpacity>
           </View>
-          {haorDetail.about &&
-            <HTML 
-              baseStyle={{padding: '5%', backgroundColor: '#D9D9D9', margin: 16}}
-              WebView={WebView} 
-              tagsStyles={tagsStyles} 
-              source={{ html: haorDetail.about || '<p>&nbsp</p>' }} 
-              contentWidth={width * .9} 
-              defaultWebViewProps={{}} 
-              renderers={renderers} 
-              customHTMLElementModels={customHTMLElementModels} 
-              staticContentMaxWidth= {width}
-              renderersProps={{
-                iframe: {
-                  scalesPageToFit: false,
-                  webViewProps: {
-                    allowsFullscreenVideo: true,
-                  },
-                },
-              }}
-            />
-          }
 
-          <HTML 
-            baseStyle={{paddingHorizontal: '5%'}}
-            WebView={WebView} 
-            tagsStyles={tagsStyles} 
-            source={{ html: haorDetail.description || '<p>&nbsp</p>' }} 
-            contentWidth={width * .9} 
-            defaultWebViewProps={{}} 
-            renderers={renderers} 
-            customHTMLElementModels={customHTMLElementModels} 
-            staticContentMaxWidth= {width}
-            renderersProps={{
-              iframe: {
-                scalesPageToFit: false,
-                webViewProps: {
-                  allowsFullscreenVideo: true,
-                },
-              },
-            }}
-          />
+
+          <Image style={{width: '100%', height: 464, resizeMode: 'contain',}} source={require("../../../../assets/media/map.png")}/>
         </ScrollView>
     </>
   );

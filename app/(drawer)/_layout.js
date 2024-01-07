@@ -50,7 +50,7 @@ const CustomDrawerContent = (props) => {
         ]}
         style={{ backgroundColor: pathname == "/feed" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
-          router.push("/(drawer)/(tabs)/feed");
+          router.push("/explore");
         }}
       />
       <DrawerItem
@@ -68,7 +68,7 @@ const CustomDrawerContent = (props) => {
         ]}
         style={{ backgroundColor: pathname == "/profile" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
-          router.push("/(drawer)/(tabs)/profile");
+          router.push("/home/pages/haor_building");
         }}
       />
       <DrawerItem
@@ -86,7 +86,7 @@ const CustomDrawerContent = (props) => {
         ]}
         style={{ backgroundColor: pathname == "/favourites" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
-          router.push("/favourites");
+          router.push("/home/rivers");
         }}
       />
       <DrawerItem
@@ -104,7 +104,7 @@ const CustomDrawerContent = (props) => {
         ]}
         style={{ backgroundColor: pathname == "/settings" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
-          router.push("/settings");
+          router.push("/home/pages/about-us");
         }}
       />
       <DrawerItem
@@ -122,7 +122,7 @@ const CustomDrawerContent = (props) => {
         ]}
         style={{ backgroundColor: pathname == "/settings" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
-          router.push("/settings");
+          router.push("/home/pages/contact-us");
         }}
       />
       
@@ -137,12 +137,11 @@ const CustomDrawerContent = (props) => {
 export default function Layout() {
   return (
     <Drawer drawerContent={(props) => <CustomDrawerContent {...props} />} screenOptions={{headerShown: false}}>
-      <Drawer.Screen name="favourites" options={{headerShown: true}} />
-      <Drawer.Screen name="settings" options={{headerShown: true}} />
+      <Drawer.Screen name="(tabs)" options={{headerShown: false}} />
     </Drawer>
   );
 }
-
+ 
 const styles = StyleSheet.create({
   navItemLabel: {
     marginLeft: -20,

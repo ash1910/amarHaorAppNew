@@ -140,8 +140,6 @@ export default function Page() {
 
   return (
     <>
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{paddingBottom: 10}}>
           <View>
             <Image style={{justifyContent: 'center', height: 220, width: width, backgroundColor: '#ccc'}} source={{uri:web_url+haorDetail.header_img}}/>
@@ -193,8 +191,6 @@ export default function Page() {
             }}
           />
         </ScrollView>
-
-      </View>
     </>
   );
 }

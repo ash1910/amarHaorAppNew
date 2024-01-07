@@ -238,4 +238,13 @@ const getHaorDetail = (id) => {
   return R3ClientWithoutAuth.get(`haor-detail/${id}`);
 };
 
-export { getGalleries, getHome, getHaorList, getDistrictList, getUpazilaList, getHaorDetail };
+const getPages = (slug) => {
+  return R3ClientWithoutAuth.get(`pages/${slug}`);
+};
+
+const getRivers = () => {
+  return R3ClientWithoutAuth.get("rivers");
+};
+
+
+export { getGalleries, getHome, getHaorList, getDistrictList, getUpazilaList, getHaorDetail, getPages, getRivers };
