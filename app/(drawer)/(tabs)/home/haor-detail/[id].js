@@ -138,11 +138,13 @@ export default function Page() {
     iframe: IframeRenderer,
   };
 
+  const imageUrl = haorDetail.thumb_img_big !== '' ? web_url+ haorDetail.thumb_img_big : web_url+ haorDetail.header_img;
+
   return (
     <>
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{paddingBottom: 10}}>
           <View>
-            <Image style={{justifyContent: 'center', height: 220, width: width, backgroundColor: '#ccc'}} source={{uri:web_url+haorDetail.header_img}}/>
+            <Image style={{justifyContent: 'center', height: 220, width: width, backgroundColor: '#ccc'}} source={{uri: imageUrl}}/>
             <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "center", alignItems: "center", backgroundColor: 'rgba(0,0,0,.3)' }}>
               <Text style={{color: '#FFFFFF', fontSize: 28, fontWeight: 500, marginBottom: 10}}>{haorDetail.name}</Text>
               <Text style={{color: '#FFFFFF', fontSize: 14, fontWeight: 400}}>Area: {haorDetail.area}</Text>

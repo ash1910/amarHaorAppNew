@@ -140,8 +140,8 @@ export default function Page() {
 
   return (
     <>
-        <ScrollView style={{ flex: 1 }} contentContainerStyle={{padding: 16, backgroundColor: '#fff'}}>
-          <View style={{flex: 1, alignContent: 'center', alignItems: 'center'}}>
+        <ScrollView contentContainerStyle={{flex: 1, padding: 16, backgroundColor: '#fff'}}>
+          <View style={{ alignItems: 'center'}}>
             <Text style={{color: '#000', fontSize: 28, fontWeight: 500, margin: 10}}>Haor Maps</Text>
             <TouchableOpacity onPress={() => router.back()} style={{position: 'absolute', left: 12, top: 12}}><MaterialIcons name="arrow-back" size={28} color={"#000"}/></TouchableOpacity>
           </View>

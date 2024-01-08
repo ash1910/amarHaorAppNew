@@ -81,7 +81,7 @@ export default function Page() {
           keyExtractor={(item, index)=>{return item.name}}
           renderItem={({item, index})=>(
             <TouchableOpacity style={{width: 90, height: 90, alignItems:'center',}} activeOpacity={1} onPress={() => router.push(`${item.route}`)} >
-              <View style={{width: 64, height: 64, backgroundColor: '#35B769', paddingHorizontal: 16, paddingVertical: 16, borderWidth: 1, borderColor: '#35B769', borderRadius: '50%'}}>
+              <View style={{width: 64, height: 64, backgroundColor: '#35B769', paddingHorizontal: 16, paddingVertical: 16, borderWidth: 1, borderColor: '#35B769', borderRadius: 32}}>
                 <MaterialIcons name={item.icon} size={32} color={"#FFFFFF"}/>
               </View>
               <Text style={{fontSize: 11, color: '#49454F', fontWeight: 500, alignItems: 'center', paddingVertical: 8}}>{item.name}</Text>
