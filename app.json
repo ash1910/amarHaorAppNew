@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expoRouterApp",
-    "slug": "expoRouterApp",
+    "name": "amarHaor",
+    "slug": "amarhaor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,10 +15,23 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/c89cc165-d89a-4714-bd39-0379179dcdf0"
+    },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.amarhaorbd.app",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos.",
+        "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos."
+      }
     },
     "android": {
+      "package": "com.amarhaorbd.app",
+      "versionCode": 1,
+      "permissions": [],
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -32,8 +45,18 @@
     "plugins": [
       "expo-router"
     ],
+    "extra": {
+      "eas": {
+        "projectId": "7ba7ee32-dd48-46c8-960b-cd0eec1dfc7f"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "owner": "ashraful1910",
     "experiments": {
       "typedRoutes": true
     }
+
   }
 }
