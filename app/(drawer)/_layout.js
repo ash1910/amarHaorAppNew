@@ -1,4 +1,3 @@
-import { Box, Button, VStack, HStack, Center } from "@gluestack-ui/themed";
 import React, { useEffect } from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 import { Drawer } from "expo-router/drawer";

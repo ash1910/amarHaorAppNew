@@ -1,5 +1,5 @@
 {
-  "name": "exporouterapp",
+  "name": "amarhaor",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -14,8 +14,6 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
-    "@gluestack-style/react": "^1.0.30",
-    "@gluestack-ui/themed": "^1.0.33",
     "@native-html/iframe-plugin": "^2.6.1",
     "@react-native-async-storage/async-storage": "1.18.2",
     "@react-native-picker/picker": "2.4.10",

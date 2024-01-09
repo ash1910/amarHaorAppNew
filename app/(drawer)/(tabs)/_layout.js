@@ -21,10 +21,13 @@ export default function _layout() {
     },
     headerLeft: () => <View style={{flexDirection: "row",}}>
         <DrawerToggleButton tintColor='#49454F' />
-        <Image
-          source={require("../../../assets/images/logo_home.png")}
-          style={{width: 84, height: 32}}
-        />
+        <TouchableOpacity 
+        onPress={() => router.push('home')} >
+          <Image
+            source={require("../../../assets/images/logo_home.png")}
+            style={{width: 84, height: 32}}
+          />
+        </TouchableOpacity>
       </View>,
     tabBarActiveTintColor: itemHoverColor,
     tabBarInactiveTintColor: itemHoverRevereColor,
@@ -47,6 +50,9 @@ export default function _layout() {
             color="#49454F"
           />
         </TouchableOpacity>
+    }}
+    listeners={{
+      tabPress: e => router.push('home'),
     }} />
     <Tabs.Screen name='explore' options={{
       tabBarIcon: ({color}) => (
@@ -54,13 +60,19 @@ export default function _layout() {
       ),
       tabBarLabel: 'Explore',
       headerTitle: ''
+    }}
+    listeners={{
+      tabPress: e => router.push('explore'),
     }} />
-    <Tabs.Screen name='gallery' options={{
+    <Tabs.Screen name='gallery/index' options={{
       tabBarIcon: ({color}) => (
         <MaterialIcons name="collections" size={24} color={color} />
       ),
       tabBarLabel: 'Gallery',
       headerTitle: ''
+    }}
+    listeners={{
+      tabPress: e => router.push('gallery'),
     }} />
    </Tabs>
   )
