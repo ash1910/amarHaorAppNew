@@ -15,7 +15,11 @@
           "buildType": "apk"
         }
       },
-      "production": {}
+      "production": {
+        "env": {
+          "ANDROID_SDK_ROOT": "/Volumes/ExAsh/Library/Android/sdk"
+        }
+      }
     }
   }
   
