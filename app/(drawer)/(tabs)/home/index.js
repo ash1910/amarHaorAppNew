@@ -103,7 +103,7 @@ export default function Page() {
           data={home.home_featured_haors_items}
           keyExtractor={(item, index)=>{return item.title}}
           renderItem={({item, index})=>(
-            <TouchableOpacity style={{width: 241, height: 298, alignItems:'center',}} activeOpacity={1} onPress={() => router.push("/home"+item.url)} >
+            <TouchableOpacity style={{width: 241, height: 298, alignItems:'center', borderRadius: 6, overflow: 'hidden'}} activeOpacity={1} onPress={() => router.push("/home"+item.url)} >
               <Image style={{width: '100%', height: '100%', backgroundColor: '#ccc', resizeMode: 'cover'}} source={{uri:web_url+item.image}}/>
               <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "flex-end", backgroundColor: 'rgba(0,0,0,.1)' }}>
                 <Text style={{color: '#FFFFFF', fontSize: 18, fontWeight: 500, paddingHorizontal: 16, paddingBottom: 4}}>{item.title}</Text>
@@ -127,9 +127,9 @@ export default function Page() {
           data={home.home_conservation_effects_items}
           keyExtractor={(item, index)=>{return item.title}}
           renderItem={({item, index})=>(
-            <TouchableOpacity style={{width: 128, height: 205, alignItems:'center',}} activeOpacity={1} onPress={() => router.push("/home"+item.url)} >
-              <Image style={{width: '100%', height: '100%', backgroundColor: '#ccc', resizeMode: 'cover'}} source={{uri:web_url+item.image}}/>
-              <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "flex-end", backgroundColor: 'rgba(0,0,0,.1)' }}>
+            <TouchableOpacity style={{width: 128, height: 205, alignItems:'center', borderRadius: 6, overflow: 'hidden'}} activeOpacity={1} onPress={() => router.push("/home"+item.url)} >
+              <Image style={{width: '100%', height: '100%', backgroundColor: '#ccc', resizeMode: 'cover', }} source={{uri:web_url+item.image}}/>
+              <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "flex-end", backgroundColor: 'rgba(0,0,0,.05)'}}>
                 <Text style={{color: '#FFFFFF', fontSize: 16, fontWeight: 500, paddingHorizontal: 16, paddingBottom: 16}}>{item.title}</Text>
               </View>
             </TouchableOpacity>
