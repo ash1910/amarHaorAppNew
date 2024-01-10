@@ -246,5 +246,9 @@ const getRivers = () => {
   return R3ClientWithoutAuth.get("rivers");
 };
 
+const getDistrictDetailList = () => {
+  return R3ClientWithoutAuth.get("district_detail_list");
+};
 
-export { getGalleries, getHome, getHaorList, getDistrictList, getUpazilaList, getHaorDetail, getPages, getRivers };
+
+export { getGalleries, getHome, getHaorList, getDistrictList, getUpazilaList, getHaorDetail, getPages, getRivers, getDistrictDetailList };
