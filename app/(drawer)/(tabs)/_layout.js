@@ -9,16 +9,18 @@ import {
   FontAwesome5
 } from "@expo/vector-icons";
 import { DrawerToggleButton } from '@react-navigation/drawer';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function _layout() {
   const itemHoverColor = "#35B769";
   const itemHoverRevereColor = "#1C1B1F";
   const pathname = usePathname();
+  const insets = useSafeAreaInsets();
 
   return (
-   <Tabs screenOptions={{
+   <Tabs safeAreaInsets={{ bottom: 0, }} screenOptions={{
     headerStyle: {
-      height: 80, // Specify the height of your custom header
+      height: 60 + insets.top, // Specify the height of your custom header
     },
     headerLeft: () => <View style={{flexDirection: "row",}}>
         <DrawerToggleButton tintColor='#49454F' />
@@ -32,8 +34,8 @@ export default function _layout() {
       </View>,
     tabBarActiveTintColor: itemHoverColor,
     tabBarInactiveTintColor: itemHoverRevereColor,
-    tabBarLabelStyle: { fontWeight: 'bold', marginBottom: 10 },
-    tabBarStyle: { backgroundColor: '#F3EDF7', height: 60},
+    tabBarLabelStyle: { fontWeight: 'bold', marginBottom: insets.bottom + 10, },
+    tabBarStyle: { backgroundColor: '#F3EDF7', height: 60 + insets.bottom},
     }}
     >
     <Tabs.Screen name='home' options={{
