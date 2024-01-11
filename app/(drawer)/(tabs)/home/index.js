@@ -22,7 +22,7 @@ export default function Page() {
   const homeIconNavList = [{
     name: 'List of Haors',
     icon: 'list',
-    route: 'explore'
+    route: '/home/district'
   },
   {
     name: 'Statistics',

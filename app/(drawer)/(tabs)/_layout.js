@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Image, Button, TouchableOpacity } from "react-native";
 import React from 'react'
-import { Tabs, router } from 'expo-router'
+import { Tabs, router, usePathname } from 'expo-router'
 import {
   Feather,
   AntDesign,
@@ -13,6 +13,7 @@ import { DrawerToggleButton } from '@react-navigation/drawer';
 export default function _layout() {
   const itemHoverColor = "#35B769";
   const itemHoverRevereColor = "#1C1B1F";
+  const pathname = usePathname();
 
   return (
    <Tabs screenOptions={{
@@ -40,7 +41,7 @@ export default function _layout() {
         <Feather name="home" size={24} color={color} />
       ),
       tabBarLabel: 'Home',
-      headerTitle: '',
+      headerTitle: pathname === '/home/district' ? 'Haor List' : '',
       headerRight: () => <TouchableOpacity 
         style={{marginHorizontal: 10}}
         onPress={() => router.push('explore')} >

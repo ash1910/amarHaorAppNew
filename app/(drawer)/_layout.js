@@ -49,7 +49,7 @@ const CustomDrawerContent = (props) => {
         ]}
         style={{ backgroundColor: pathname == "/feed" ? itemHoverColor : itemHoverRevereColor }}
         onPress={() => {
-          router.push("/explore");
+          router.push("/home/district");
         }}
       />
       <DrawerItem
