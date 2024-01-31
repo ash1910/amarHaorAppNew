@@ -12,7 +12,7 @@
 
 3. yarn android (run metro server for android)
 
-3. expo fetch:android:keystore  (get android keystore)
+3. expo fetch:android:keystore  (get android keystore)   OR npx eas credentials -p android
 
 4. -> Build -> Generate Signed Apk -> Create new (for getting Android APK from Android Studio )
 
