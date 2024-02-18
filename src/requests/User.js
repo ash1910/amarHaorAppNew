@@ -40,5 +40,17 @@ const getDistrictDetail = (id) => {
   return R3ClientWithoutAuth.get(`district/${id}`);
 };
 
+const getVideos = () => {
+  return R3ClientWithoutAuth.get("videos");
+};
 
-export { getGalleries, getHome, getHaorList, getDistrictList, getUpazilaList, getHaorDetail, getPages, getRivers, getDistrictDetailList, getDistrictDetail };
+const getWetlands = () => {
+  return R3ClientWithoutAuth.get("wetlands");
+};
+
+const getWetlandDetail = (id) => {
+  return R3ClientWithoutAuth.get(`wetland-detail/${id}`);
+};
+
+
+export { getGalleries, getHome, getHaorList, getDistrictList, getUpazilaList, getHaorDetail, getPages, getRivers, getDistrictDetailList, getDistrictDetail, getVideos, getWetlands, getWetlandDetail };

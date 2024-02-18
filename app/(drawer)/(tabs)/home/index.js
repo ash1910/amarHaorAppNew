@@ -10,7 +10,7 @@ import {
 } from "@expo/vector-icons";
 
 import {useNavigation} from '@react-navigation/native';
-import { getHome } from "../../../../src/requests/User";
+import { getHome, getVideos, getWetlands } from "../../../../src/requests/User";
 import {width, height} from '../../../../src/utils/validator';
 import { ScrollView } from 'react-native-gesture-handler';
 
@@ -18,6 +18,8 @@ export default function Page() {
   const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
   const [home, setHome] = useState({});
+  const [videoList, setVideoList] = useState([]);
+  const [wetlandList, setWetlandList] = useState([]);
 
   const homeIconNavList = [{
     name: 'List of Haors',
@@ -61,10 +63,48 @@ export default function Page() {
     }
   };
 
+  const loadVideo = async () => {
+    setLoading(true);
+    let response = await getVideos();
+    //alert(JSON.stringify(response, null, 5)) 
+    if (response.ok && response.data) {
+      if (isMounted){
+        setVideoList(response.data);
+        //console.log(JSON.stringify(response, null, 5))
+      }
+    }
+    else{
+      Alert.alert("",response.data.message?.error);
+    }
+    if (isMounted){
+      setLoading(false);
+    }
+  };
+
+  const loadWetland = async () => {
+    setLoading(true);
+    let response = await getWetlands();
+    //alert(JSON.stringify(response, null, 5)) 
+    if (response.ok && response.data) {
+      if (isMounted){
+        setWetlandList(response.data);
+        //console.log(JSON.stringify(response, null, 5))
+      }
+    }
+    else{
+      Alert.alert("",response.data.message?.error);
+    }
+    if (isMounted){
+      setLoading(false);
+    }
+  };
+
 
   useEffect(() => {
     isMounted = true;
     loadHome();
+    loadVideo();
+    loadWetland();
     return () => { isMounted = false };
   }, [navigation]);
 
@@ -131,6 +171,53 @@ export default function Page() {
               <Image style={{width: '100%', height: '100%', backgroundColor: '#ccc', resizeMode: 'cover', }} source={{uri:web_url+item.image}}/>
               <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "flex-end", backgroundColor: 'rgba(0,0,0,.05)'}}>
                 <Text style={{color: '#FFFFFF', fontSize: 16, fontWeight: 500, paddingHorizontal: 16, paddingBottom: 16}}>{item.title}</Text>
+              </View>
+            </TouchableOpacity>
+          )}
+          />
+      </View>
+
+      <View style={{width: '100%', marginVertical: 0,}}>
+        <Text style={{fontSize: 16, color: '#49454F', fontWeight: 500, alignItems: 'flex-start', paddingVertical: 8}}>Explore the Wetlands</Text>
+        <FlatList
+          horizontal
+          ItemSeparatorComponent={
+            <View style={{width: 8, height: '100%', backgroundColor: '#ffffff'}} />
+          }
+          pagingEnabled={true}
+          showsHorizontalScrollIndicator={false}
+          legacyImplementation={false}
+          data={wetlandList}
+          keyExtractor={(item, index)=>{return item.id}}
+          renderItem={({item, index})=>(
+            <TouchableOpacity style={{width: 192, height: 238, alignItems:'center', borderRadius: 6, overflow: 'hidden'}} activeOpacity={1} onPress={() => router.push("/home/wetland-detail/"+item.id)} >
+              <Image style={{width: '100%', height: '100%', backgroundColor: '#ccc', resizeMode: 'cover'}} source={{uri:web_url+item.thumb_img}}/>
+              <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "flex-end", backgroundColor: 'rgba(0,0,0,.1)' }}>
+                <Text style={{color: '#FFFFFF', fontSize: 18, fontWeight: 500, paddingHorizontal: 16, paddingBottom: 4}}>{item.name}</Text>
+                <Text style={{color: '#FFFFFF', fontSize: 12, fontWeight: 500, paddingHorizontal: 16, paddingBottom: 16}}>{item.district}</Text>
+              </View>
+            </TouchableOpacity>
+          )}
+          />
+      </View>
+
+      <View style={{width: '100%', marginVertical: 16,}}>
+        <Text style={{fontSize: 16, color: '#49454F', fontWeight: 500, paddingVertical: 8}}>Video Gallery</Text>
+        <FlatList
+          horizontal
+          ItemSeparatorComponent={
+            <View style={{width: 8, height: '100%', backgroundColor: '#ffffff'}} />
+          }
+          pagingEnabled={true}
+          showsHorizontalScrollIndicator={false}
+          legacyImplementation={false}
+          data={videoList}
+          keyExtractor={(item, index)=>{return item.id}}
+          renderItem={({item, index})=>(
+            <TouchableOpacity style={{width: 154, height: 205, alignItems:'center', borderRadius: 6, overflow: 'hidden'}} activeOpacity={1} onPress={() => router.push(`/home/video-detail/${item.id}?url=${item.url_mobile || item.url}&name=${item.name}`)} >
+              <Image style={{width: '100%', height: '100%', backgroundColor: '#ccc', resizeMode: 'cover', }} source={{uri:web_url+item.thumb_img}}/>
+              <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "flex-end", backgroundColor: 'rgba(0,0,0,.05)'}}>
+                <Text style={{color: '#FFFFFF', fontSize: 16, fontWeight: 500, paddingHorizontal: 16, paddingBottom: 16}}>{item.name}</Text>
               </View>
             </TouchableOpacity>
           )}
