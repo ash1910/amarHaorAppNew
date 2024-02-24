@@ -214,7 +214,7 @@ export default function Page() {
           data={videoList}
           keyExtractor={(item, index)=>{return item.id}}
           renderItem={({item, index})=>(
-            <TouchableOpacity style={{width: 154, height: 205, alignItems:'center', borderRadius: 6, overflow: 'hidden'}} activeOpacity={1} onPress={() => router.push(`/home/video-detail/${item.id}?url=${item.url_mobile || item.url}&name=${item.name}`)} >
+            <TouchableOpacity style={{width: 154, height: 205, alignItems:'center', borderRadius: 6, overflow: 'hidden'}} activeOpacity={1} onPress={() => router.push(`/home/video-detail/${item.id}?url=${item.url_mobile || item.url}&name=${item.name}&thumb_img=${item.thumb_img}`)} >
               <Image style={{width: '100%', height: '100%', backgroundColor: '#ccc', resizeMode: 'cover', }} source={{uri:web_url+item.thumb_img}}/>
               <View style={{ position: 'absolute', width: '100%', height: '100%', justifyContent: "flex-end", backgroundColor: 'rgba(0,0,0,.05)'}}>
                 <Text style={{color: '#FFFFFF', fontSize: 16, fontWeight: 500, paddingHorizontal: 16, paddingBottom: 16}}>{item.name}</Text>

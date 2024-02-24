@@ -1,4 +1,4 @@
-import { View, Text, Button, Alert, Image, FlatList, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
+import { View, Text, Button, Alert, Image, ActivityIndicator, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
 import React, {useEffect, useState, useRef} from 'react';
 import { useLocalSearchParams, router, Stack } from "expo-router";
 import { Video, ResizeMode } from 'expo-av';
@@ -15,10 +15,10 @@ import { getDistrictDetail } from "../../../../../src/requests/User";
 import {width, height} from '../../../../../src/utils/validator';
 
 export default function Page() {
-  const { id, name, url } = useLocalSearchParams();
+  const { id, name, url, thumb_img } = useLocalSearchParams();
   const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
-  const [districtList, setDistrictList] = useState([]);
+  const [isPreloading, setIsPreloading] = useState(false);
   
 
   let isMounted = true;
@@ -34,20 +34,36 @@ export default function Page() {
   return (
     <ScrollView contentContainerStyle={{ flex: 1, paddingHorizontal: 0, paddingBottom: 16, backgroundColor: '#ffffff'}}>
       <View style={{alignItems:'center', width: '100%', paddingBottom: 16,}}>
-        <Text style={{color: '#000', fontSize: 20, fontWeight: 500, margin: 10,}}>{name}</Text>
+        <Text style={{color: '#000', fontSize: 20, fontWeight: 500, margin: 10, paddingLeft: 40}}>{name}</Text>
         <TouchableOpacity onPress={() => router.back()} style={{position: 'absolute', left: 16, top: 12}}><MaterialIcons name="arrow-back" size={28} color={"#49454F"}/></TouchableOpacity>
       </View>
+      
       <Video
           ref={video}
           style={{height: 300, width: '100%'}}
           source={{
             uri: `${web_url}${url}`,
           }}
+          posterSource={{uri:web_url+"/"+thumb_img}}
+          posterStyle={{resizeMode:'cover'}}
           useNativeControls
           resizeMode={ResizeMode.CONTAIN}
-          isLooping
+          usePoster
+          shouldPlay={true}
+          isLooping={false}
+          isMuted={false}
           onPlaybackStatusUpdate={status => setStatus(() => status)}
+          onLoadStart={() => setIsPreloading(true)}
+          onReadyForDisplay={() => setIsPreloading(false)}
         />
+        {isPreloading &&
+          <ActivityIndicator
+              animating
+              color={"gray"}
+              size="large"
+              style={{ flex: 1, position:"absolute", top:"50%", left:"45%" }}
+          />
+        }
       
     </ScrollView>
   )
