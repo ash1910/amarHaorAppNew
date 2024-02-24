@@ -35,7 +35,10 @@ export default function Page() {
     <ScrollView contentContainerStyle={{ flex: 1, paddingHorizontal: 0, paddingBottom: 16, backgroundColor: '#ffffff'}}>
       <View style={{alignItems:'center', width: '100%', paddingBottom: 16,}}>
         <Text style={{color: '#000', fontSize: 20, fontWeight: 500, margin: 10, paddingLeft: 40}}>{name}</Text>
-        <TouchableOpacity onPress={() => router.back()} style={{position: 'absolute', left: 16, top: 12}}><MaterialIcons name="arrow-back" size={28} color={"#49454F"}/></TouchableOpacity>
+        <TouchableOpacity onPress={() => { 
+          video.current.pauseAsync();
+          router.back();
+          }} style={{position: 'absolute', left: 16, top: 12}}><MaterialIcons name="arrow-back" size={28} color={"#49454F"}/></TouchableOpacity>
       </View>
       
       <Video
@@ -59,9 +62,9 @@ export default function Page() {
         {isPreloading &&
           <ActivityIndicator
               animating
-              color={"gray"}
+              color={"white"}
               size="large"
-              style={{ flex: 1, position:"absolute", top:"50%", left:"45%" }}
+              style={{ flex: 1, position:"absolute", top:"50%", left:"45%", backgroundColor: '#000', padding: 20, borderRadius: 6 }}
           />
         }
       
