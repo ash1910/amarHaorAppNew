@@ -20,7 +20,7 @@
       "url": "https://u.expo.dev/c89cc165-d89a-4714-bd39-0379179dcdf0"
     },
     "ios": {
-      "bundleIdentifier": "com.amarhaor.app",
+      "bundleIdentifier": "com.bdappbd2.app",
       "buildNumber": "3",
       "supportsTablet": true,
       "infoPlist": {
