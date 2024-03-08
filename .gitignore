@@ -4,8 +4,7 @@
 node_modules/
 android/
 ios/
-androidAPK/
-IOS-IPA/
+APK-AAB-IPA/
 
 # Expo
 .expo/
