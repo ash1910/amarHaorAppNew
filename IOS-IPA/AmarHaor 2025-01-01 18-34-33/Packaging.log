@@ -1,0 +1,488 @@
+2025-01-01 12:32:42 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fbb10cc5210; archive(resolved)="<IDEArchive: 0x60001bf98840>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	Chain (16, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fbb10cc5210; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7fbb10cc4fa0; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb10c8d080; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb0fcf7f80; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb25eabfd0; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb10ca3d00; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb1035aa60; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb24e30530; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb1013f270; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb10397e20; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb10cc3870; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb10c821f0; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb1012db80; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600008f0b440; teamID='AL939PF7Y8', teamName='TECHNO MOLE CREATIONS LTD.', teamType='Company', username='masum_advance@yahoo.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fbb10c93460; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="(null)">
+	<IDEDistributionContext: 0x7fbb1013a820; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600009874250>", team="(null)">
+	<IDEDistributionContext: 0x7fbb10356ff0; archive = "<IDEArchive: 0x60001bf98840>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7fbb10cc5210>
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionCreateDestRootStep
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionCopyItemStep
+2025-01-01 12:32:42 +0000  Running /usr/bin/ditto '-V' '/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app'
+2025-01-01 12:32:42 +0000  >>> Copying /Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app 
+2025-01-01 12:32:42 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-01-01 12:32:42 +0000  18144 bytes for ./_CodeSignature/CodeResources
+2025-01-01 12:32:42 +0000  copying file ./SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib ... 
+2025-01-01 12:32:42 +0000  2411 bytes for ./SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib
+2025-01-01 12:32:42 +0000  copying file ./SplashScreen.storyboardc/SplashScreenViewController.nib ... 
+2025-01-01 12:32:42 +0000  976 bytes for ./SplashScreen.storyboardc/SplashScreenViewController.nib
+2025-01-01 12:32:42 +0000  copying file ./SplashScreen.storyboardc/Info.plist ... 
+2025-01-01 12:32:42 +0000  225 bytes for ./SplashScreen.storyboardc/Info.plist
+2025-01-01 12:32:42 +0000  copying file ./AppIcon60x60@2x.png ... 
+2025-01-01 12:32:42 +0000  20709 bytes for ./AppIcon60x60@2x.png
+2025-01-01 12:32:42 +0000  copying file ./AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+2025-01-01 12:32:42 +0000  518 bytes for ./AccessibilityResources.bundle/en.lproj/Localizable.strings
+2025-01-01 12:32:42 +0000  copying file ./AccessibilityResources.bundle/Info.plist ... 
+2025-01-01 12:32:42 +0000  793 bytes for ./AccessibilityResources.bundle/Info.plist
+2025-01-01 12:32:42 +0000  copying file ./Assets.car ... 
+2025-01-01 12:32:42 +0000  3183215 bytes for ./Assets.car
+2025-01-01 12:32:42 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-01-01 12:32:42 +0000  30300 bytes for ./AppIcon76x76@2x~ipad.png
+2025-01-01 12:32:42 +0000  copying file ./AmarHaor ... 
+2025-01-01 12:32:42 +0000  5027744 bytes for ./AmarHaor
+2025-01-01 12:32:42 +0000  copying file ./main.jsbundle ... 
+2025-01-01 12:32:42 +0000  4534637 bytes for ./main.jsbundle
+2025-01-01 12:32:42 +0000  copying file ./EXConstants.bundle/app.config ... 
+2025-01-01 12:32:42 +0000  1034 bytes for ./EXConstants.bundle/app.config
+copying file ./EXConstants.bundle/Info.plist ... 
+2025-01-01 12:32:42 +0000  768 bytes for ./EXConstants.bundle/Info.plist
+2025-01-01 12:32:42 +0000  copying file ./Frameworks/libswift_Concurrency.dylib ... 
+2025-01-01 12:32:42 +0000  557584 bytes for ./Frameworks/libswift_Concurrency.dylib
+copying file ./Frameworks/hermes.framework/_CodeSignature/CodeResources ... 
+2025-01-01 12:32:42 +0000  1798 bytes for ./Frameworks/hermes.framework/_CodeSignature/CodeResources
+2025-01-01 12:32:42 +0000  copying file ./Frameworks/hermes.framework/hermes ... 
+2025-01-01 12:32:42 +0000  3240384 bytes for ./Frameworks/hermes.framework/hermes
+2025-01-01 12:32:42 +0000  copying file ./Frameworks/hermes.framework/Info.plist ... 
+2025-01-01 12:32:42 +0000  815 bytes for ./Frameworks/hermes.framework/Info.plist
+2025-01-01 12:32:42 +0000  copying file ./embedded.mobileprovision ... 
+2025-01-01 12:32:42 +0000  12442 bytes for ./embedded.mobileprovision
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png ... 
+2025-01-01 12:32:42 +0000  212 bytes for ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png ... 
+2025-01-01 12:32:42 +0000  163 bytes for ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png
+copying file ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png ... 
+2025-01-01 12:32:42 +0000  108 bytes for ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png ... 
+2025-01-01 12:32:42 +0000  761 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png
+copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png ... 
+2025-01-01 12:32:42 +0000  405 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon.png ... 
+2025-01-01 12:32:42 +0000  290 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon.png
+copying file ./assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png ... 
+2025-01-01 12:32:42 +0000  913 bytes for ./assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@expo/metro-runtime/assets/loader.png ... 
+2025-01-01 12:32:42 +0000  282 bytes for ./assets/node_modules/@expo/metro-runtime/assets/loader.png
+copying file ./assets/node_modules/@expo/metro-runtime/assets/alert-triangle.png ... 
+2025-01-01 12:32:42 +0000  609 bytes for ./assets/node_modules/@expo/metro-runtime/assets/alert-triangle.png
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.ttf ... 
+2025-01-01 12:32:42 +0000  313528 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.ttf ... 
+2025-01-01 12:32:42 +0000  49404 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.ttf
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ttf ... 
+2025-01-01 12:32:42 +0000  56228 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.ttf ... 
+2025-01-01 12:32:42 +0000  66200 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf ... 
+2025-01-01 12:32:42 +0000  134040 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf ... 
+2025-01-01 12:32:42 +0000  1147844 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.ttf ... 
+2025-01-01 12:32:42 +0000  70344 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.ttf ... 
+2025-01-01 12:32:42 +0000  56976 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.ttf
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf ... 
+2025-01-01 12:32:42 +0000  247192 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf ... 
+2025-01-01 12:32:42 +0000  202744 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf ... 
+2025-01-01 12:32:42 +0000  33736 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf ... 
+2025-01-01 12:32:42 +0000  165548 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.ttf ... 
+2025-01-01 12:32:42 +0000  25788 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.ttf ... 
+2025-01-01 12:32:42 +0000  13456 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.ttf
+copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.ttf ... 
+2025-01-01 12:32:42 +0000  54056 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.ttf
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.ttf ... 
+2025-01-01 12:32:42 +0000  230384 bytes for ./assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.ttf
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/expo-router/assets/pkg.png ... 
+2025-01-01 12:32:42 +0000  429 bytes for ./assets/node_modules/expo-router/assets/pkg.png
+copying file ./assets/node_modules/expo-router/assets/file.png ... 
+2025-01-01 12:32:42 +0000  158 bytes for ./assets/node_modules/expo-router/assets/file.png
+copying file ./assets/node_modules/expo-router/assets/forward.png ... 
+2025-01-01 12:32:42 +0000  250 bytes for ./assets/node_modules/expo-router/assets/forward.png
+2025-01-01 12:32:42 +0000  copying file ./assets/node_modules/expo-router/assets/error.png ... 
+2025-01-01 12:32:42 +0000  516 bytes for ./assets/node_modules/expo-router/assets/error.png
+2025-01-01 12:32:42 +0000  copying file ./assets/assets/images/govlogo.png ... 
+2025-01-01 12:32:42 +0000  260281 bytes for ./assets/assets/images/govlogo.png
+2025-01-01 12:32:42 +0000  copying file ./assets/assets/images/logo_home.png ... 
+2025-01-01 12:32:42 +0000  11967 bytes for ./assets/assets/images/logo_home.png
+2025-01-01 12:32:42 +0000  copying file ./assets/assets/media/map_icon.png ... 
+2025-01-01 12:32:42 +0000  6830 bytes for ./assets/assets/media/map_icon.png
+2025-01-01 12:32:42 +0000  copying file ./assets/assets/media/map.png ... 
+2025-01-01 12:32:42 +0000  319166 bytes for ./assets/assets/media/map.png
+copying file ./assets/assets/media/travel_icon.png ... 
+2025-01-01 12:32:42 +0000  4370 bytes for ./assets/assets/media/travel_icon.png
+copying file ./assets/assets/media/resort_icon.png ... 
+2025-01-01 12:32:42 +0000  6702 bytes for ./assets/assets/media/resort_icon.png
+2025-01-01 12:32:42 +0000  copying file ./Info.plist ... 
+2025-01-01 12:32:42 +0000  1762 bytes for ./Info.plist
+2025-01-01 12:32:42 +0000  copying file ./Expo.plist ... 
+2025-01-01 12:32:42 +0000  252 bytes for ./Expo.plist
+2025-01-01 12:32:42 +0000  copying file ./PkgInfo ... 
+2025-01-01 12:32:42 +0000  8 bytes for ./PkgInfo
+2025-01-01 12:32:42 +0000  /usr/bin/ditto exited with 0
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionEmbedProfileStep
+2025-01-01 12:32:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x60001bfc5bc0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x60000f209f10:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96ceb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d39290; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60001bfb9fe0:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'>
+2025-01-01 12:32:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x60001bff38a0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008f97d7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d00a50; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionInfoPlistStep
+2025-01-01 12:32:42 +0000  No Info.plist file URL found for item at path "/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib".
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionItemRemovalStep
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2025-01-01 12:32:42 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2025-01-01 12:32:42 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2025-01-01 12:32:42 +0000  Processing step: IDEDistributionSymbolsStep
+2025-01-01 12:32:42 +0000  Processing symbols for hermes.framework
+2025-01-01 12:32:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/hermes.framework' '--link-dest' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ'
+2025-01-01 12:32:42 +0000  building file list ... 
+2025-01-01 12:32:42 +0000   0 files...2025-01-01 12:32:42 +0000  5 files to consider
+2025-01-01 12:32:42 +0000  hermes.framework/
+2025-01-01 12:32:42 +0000  hermes.framework/_CodeSignature/
+rsync: link "/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/hermes.framework/_CodeSignature/CodeResources" => /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/hermes.framework/_CodeSignature/CodeResources failed: Operation not permitted (1)
+2025-01-01 12:32:42 +0000  hermes.framework/_CodeSignature/CodeResources
+2025-01-01 12:32:42 +0000  
+2025-01-01 12:32:42 +0000  sent 224 bytes  received 38 bytes  524.00 bytes/sec
+total size is 3.09M  speedup is 12378.06
+2025-01-01 12:32:42 +0000  /usr/bin/rsync exited with 0
+2025-01-01 12:32:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/dSYMs/' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ'
+2025-01-01 12:32:42 +0000  building file list ... 
+2025-01-01 12:32:42 +0000   0 files...2025-01-01 12:32:42 +0000  7 files to consider
+2025-01-01 12:32:42 +0000  ./
+2025-01-01 12:32:42 +0000  AmarHaor.app.dSYM/
+AmarHaor.app.dSYM/Contents/
+AmarHaor.app.dSYM/Contents/Resources/
+2025-01-01 12:32:42 +0000  AmarHaor.app.dSYM/Contents/Resources/DWARF/
+2025-01-01 12:32:42 +0000  
+2025-01-01 12:32:42 +0000  sent 259 bytes  received 50 bytes  618.00 bytes/sec
+total size is 56.74M  speedup is 192549.54
+2025-01-01 12:32:42 +0000  /usr/bin/rsync exited with 0
+2025-01-01 12:32:43 +0000  Writing /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Symbols/42DD2DED-62A3-3E77-963C-5E220BCCB5CA.symbols
+2025-01-01 12:32:43 +0000  Excluding symbols for libswift_Concurrency.dylib
+2025-01-01 12:32:43 +0000  Processing symbols for AmarHaor.app
+2025-01-01 12:32:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app' '--link-dest' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ'
+2025-01-01 12:32:43 +0000  building file list ... 
+2025-01-01 12:32:43 +0000   0 files...2025-01-01 12:32:43 +0000  88 files to consider
+2025-01-01 12:32:43 +0000  AmarHaor.app/
+2025-01-01 12:32:43 +0000  AmarHaor.app/AccessibilityResources.bundle/
+AmarHaor.app/AccessibilityResources.bundle/en.lproj/
+AmarHaor.app/EXConstants.bundle/
+AmarHaor.app/Frameworks/
+AmarHaor.app/Frameworks/hermes.framework/
+2025-01-01 12:32:43 +0000  AmarHaor.app/Frameworks/hermes.framework/_CodeSignature/
+AmarHaor.app/SplashScreen.storyboardc/
+AmarHaor.app/_CodeSignature/
+AmarHaor.app/assets/
+AmarHaor.app/assets/assets/
+AmarHaor.app/assets/assets/images/
+AmarHaor.app/assets/assets/media/
+AmarHaor.app/assets/node_modules/
+AmarHaor.app/assets/node_modules/@expo/
+AmarHaor.app/assets/node_modules/@expo/metro-runtime/
+AmarHaor.app/assets/node_modules/@expo/metro-runtime/assets/
+AmarHaor.app/assets/node_modules/@expo/vector-icons/
+AmarHaor.app/assets/node_modules/@expo/vector-icons/build/
+AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/
+AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/
+AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/
+AmarHaor.app/assets/node_modules/@react-navigation/
+AmarHaor.app/assets/node_modules/@react-navigation/drawer/
+AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/
+AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/
+AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/assets/
+AmarHaor.app/assets/node_modules/@react-navigation/elements/
+AmarHaor.app/assets/node_modules/@react-navigation/elements/src/
+AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/
+AmarHaor.app/assets/node_modules/expo-router/
+AmarHaor.app/assets/node_modules/expo-router/assets/
+2025-01-01 12:32:43 +0000  
+2025-01-01 12:32:43 +0000  sent 2.46K bytes  received 212 bytes  5.33K bytes/sec
+total size is 19.19M  speedup is 7367.46
+2025-01-01 12:32:43 +0000  /usr/bin/rsync exited with 0
+2025-01-01 12:32:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/dSYMs/' '--link-dest' '/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/dSYMs/' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ'
+2025-01-01 12:32:43 +0000  building file list ... 
+2025-01-01 12:32:43 +0000   0 files...2025-01-01 12:32:43 +0000  7 files to consider
+2025-01-01 12:32:43 +0000  ./
+2025-01-01 12:32:43 +0000  AmarHaor.app.dSYM/
+AmarHaor.app.dSYM/Contents/
+AmarHaor.app.dSYM/Contents/Resources/
+AmarHaor.app.dSYM/Contents/Resources/DWARF/
+2025-01-01 12:32:43 +0000  
+2025-01-01 12:32:43 +0000  sent 271 bytes  received 62 bytes  666.00 bytes/sec
+total size is 56.74M  speedup is 178672.10
+2025-01-01 12:32:43 +0000  /usr/bin/rsync exited with 0
+2025-01-01 12:32:45 +0000  Writing /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Symbols/64B536C4-7A7C-3339-BF40-EE2FF69EDB09.symbols
+2025-01-01 12:32:45 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2025-01-01 12:32:45 +0000  Running /usr/bin/ditto '-V' '/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/SwiftSupport' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/SwiftSupport'
+2025-01-01 12:32:45 +0000  >>> Copying /Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/SwiftSupport 
+2025-01-01 12:32:45 +0000  copying file ./iphoneos/libswift_Concurrency.dylib ... 
+2025-01-01 12:32:45 +0000  10535414 bytes for ./iphoneos/libswift_Concurrency.dylib
+2025-01-01 12:32:45 +0000  /usr/bin/ditto exited with 0
+2025-01-01 12:32:45 +0000  Processing step: IDEDistributionAppThinningStep
+2025-01-01 12:32:45 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2025-01-01 12:32:45 +0000  Processing step: IDEDistributionArchThinningStep
+2025-01-01 12:32:45 +0000  Running /Volumes/ExAsh/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/hermes.framework/hermes' '-verify_arch' 'arm64e'
+2025-01-01 12:32:45 +0000  /Volumes/ExAsh/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-01-01 12:32:45 +0000  Skipping architecture thinning for item "hermes" because arch "arm64e" wasn't found
+2025-01-01 12:32:45 +0000  Running /Volumes/ExAsh/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib' '-verify_arch' 'arm64e'
+2025-01-01 12:32:45 +0000  /Volumes/ExAsh/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-01-01 12:32:45 +0000  Skipping architecture thinning for item "libswift_Concurrency.dylib" because arch "arm64e" wasn't found
+2025-01-01 12:32:45 +0000  Running /Volumes/ExAsh/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/AmarHaor' '-verify_arch' 'arm64e'
+2025-01-01 12:32:45 +0000  /Volumes/ExAsh/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-01-01 12:32:45 +0000  Skipping architecture thinning for item "AmarHaor" because arch "arm64e" wasn't found
+2025-01-01 12:32:45 +0000  Processing step: IDEDistributionODRStep
+2025-01-01 12:32:45 +0000  Processing step: IDEDistributionStripXattrsStep
+2025-01-01 12:32:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60001bfc5bc0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x60000f209f10:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96ceb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d3e5d0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60001bfb9fe0:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'>
+2025-01-01 12:32:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60001bff38a0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008f97d7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d3e5d0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2025-01-01 12:32:45 +0000  Running /usr/bin/xattr '-crs' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app'
+2025-01-01 12:32:45 +0000  /usr/bin/xattr exited with 0
+2025-01-01 12:32:45 +0000  Processing step: IDEDistributionCodesignStep
+2025-01-01 12:32:45 +0000  Entitlements for <IDEDistributionItem: 0x60001bfc5bc0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x60000f209f10:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96ceb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d3f7b0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60001bfb9fe0:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'>: {
+}
+2025-01-01 12:32:45 +0000  Entitlements for <IDEDistributionItem: 0x60001bfc5bc0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x60000f209f10:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96ceb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d2e5d0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60001bfb9fe0:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'> are: {
+}
+2025-01-01 12:32:45 +0000  Writing entitlements for <IDEDistributionItem: 0x60001bfc5bc0; bundleID='dev.hermesengine.iphoneos', path='<DVTFilePath:0x60000f209f10:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96ceb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d3f390; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='dev.hermesengine.iphoneos', executablePath='<DVTFilePath:0x60001bfb9fe0:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/hermes.framework/hermes'>', hardenedRuntime='0'>'> to: /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/entitlements~~~ivRCjV
+2025-01-01 12:32:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A02DF77C8E7EBAD39C1EFB4CBD754C5ADA9D2882' '--entitlements' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/entitlements~~~ivRCjV' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/hermes.framework'
+2025-01-01 12:32:45 +0000  /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/hermes.framework: replacing existing signature
+2025-01-01 12:33:01 +0000  /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/hermes.framework: signed bundle with Mach-O thin (arm64) [dev.hermesengine.iphoneos]
+2025-01-01 12:33:01 +0000  /usr/bin/codesign exited with 0
+2025-01-01 12:33:01 +0000  Entitlements for <IDEDistributionItem: 0x60001bff38a0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008f97d7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d04f20; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>: {
+}
+2025-01-01 12:33:01 +0000  Entitlements for <IDEDistributionItem: 0x60001bff38a0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008f97d7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d2e5d0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2025-01-01 12:33:01 +0000  Writing entitlements for <IDEDistributionItem: 0x60001bff38a0; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60008f97d7c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d3f7b0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='(null)', teamID='AL939PF7Y8', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x60000f56e080:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/entitlements~~~ufadXQ
+2025-01-01 12:33:01 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A02DF77C8E7EBAD39C1EFB4CBD754C5ADA9D2882' '--entitlements' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/entitlements~~~ufadXQ' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'
+2025-01-01 12:33:02 +0000  /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib: replacing existing signature
+2025-01-01 12:33:15 +0000  /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib: signed Mach-O thin (arm64) [com.apple.dt.runtime.swiftConcurrency]
+2025-01-01 12:33:15 +0000  /usr/bin/codesign exited with 0
+2025-01-01 12:33:15 +0000  Entitlements for <IDEDistributionItem: 0x60001bfc5da0; bundleID='com.amarhaor.app', path='<DVTFilePath:0x60000f21c380:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96d2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d00bb0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='{
+    "application-identifier" = "AL939PF7Y8.com.amarhaor.app";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = AL939PF7Y8;
+    "get-task-allow" = 1;
+}', teamID='AL939PF7Y8', identifier='com.amarhaor.app', executablePath='<DVTFilePath:0x60000f20d810:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/AmarHaor'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "AL939PF7Y8.com.amarhaor.app";
+    "aps-environment" = production;
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = AL939PF7Y8;
+    "get-task-allow" = 0;
+}
+2025-01-01 12:33:15 +0000  Entitlements for <IDEDistributionItem: 0x60001bfc5da0; bundleID='com.amarhaor.app', path='<DVTFilePath:0x60000f21c380:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96d2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d2e9f0; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='{
+    "application-identifier" = "AL939PF7Y8.com.amarhaor.app";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = AL939PF7Y8;
+    "get-task-allow" = 1;
+}', teamID='AL939PF7Y8', identifier='com.amarhaor.app', executablePath='<DVTFilePath:0x60000f20d810:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/AmarHaor'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "AL939PF7Y8.com.amarhaor.app";
+    "aps-environment" = production;
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = AL939PF7Y8;
+    "get-task-allow" = 0;
+}
+2025-01-01 12:33:15 +0000  Writing entitlements for <IDEDistributionItem: 0x60001bfc5da0; bundleID='com.amarhaor.app', path='<DVTFilePath:0x60000f21c380:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60005f96d2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600006d01080; name='Apple Development: Ashraful Masum (882AJPJNF3)', hash='907022796B7B28B5B85385E971CCA756EDC54A83', serialNumber='AACA7AC1808CBCB30CEAAECA65DF41F', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-12-09 05:29:59 +0000''>', entitlements='{
+    "application-identifier" = "AL939PF7Y8.com.amarhaor.app";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = AL939PF7Y8;
+    "get-task-allow" = 1;
+}', teamID='AL939PF7Y8', identifier='com.amarhaor.app', executablePath='<DVTFilePath:0x60000f20d810:'/Users/Ashraful1910/Library/Developer/Xcode/Archives/2025-01-01/AmarHaor 1-1-25 6.28 PM.xcarchive/Products/Applications/AmarHaor.app/AmarHaor'>', hardenedRuntime='0'>'> to: /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/entitlements~~~TF4pfv
+2025-01-01 12:33:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A02DF77C8E7EBAD39C1EFB4CBD754C5ADA9D2882' '--entitlements' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/entitlements~~~TF4pfv' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app'
+2025-01-01 12:33:16 +0000  /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app: replacing existing signature
+2025-01-01 12:33:16 +0000  
+2025-01-01 12:33:16 +0000  /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app: signed app bundle with Mach-O thin (arm64) [com.amarhaor.app]
+2025-01-01 12:33:16 +0000  /usr/bin/codesign exited with 0
+2025-01-01 12:33:16 +0000  Processing step: IDEDistributionZipODRItemStep
+2025-01-01 12:33:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-01-01 12:33:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-01-01 12:33:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-01-01 12:33:16 +0000  Processing step: IDEDistributionCreateIPAStep
+2025-01-01 12:33:16 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Symbols' '--link-dest' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root'
+2025-01-01 12:33:16 +0000  building file list ... 
+2025-01-01 12:33:16 +0000   0 files...2025-01-01 12:33:16 +0000  3 files to consider
+2025-01-01 12:33:16 +0000  Symbols/
+2025-01-01 12:33:16 +0000  
+2025-01-01 12:33:16 +0000  sent 209 bytes  received 26 bytes  470.00 bytes/sec
+total size is 15.54M  speedup is 69330.55
+2025-01-01 12:33:16 +0000  /usr/bin/rsync exited with 0
+2025-01-01 12:33:16 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root' '/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Packages/AmarHaor.ipa'
+2025-01-01 12:33:16 +0000  >>> Copying /var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root 
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/_CodeSignature/CodeResources ... 
+2025-01-01 12:33:16 +0000  18144 bytes for ./Payload/AmarHaor.app/_CodeSignature/CodeResources
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib ... 
+2025-01-01 12:33:16 +0000  2411 bytes for ./Payload/AmarHaor.app/SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/SplashScreen.storyboardc/SplashScreenViewController.nib ... 
+2025-01-01 12:33:16 +0000  976 bytes for ./Payload/AmarHaor.app/SplashScreen.storyboardc/SplashScreenViewController.nib
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/SplashScreen.storyboardc/Info.plist ... 
+2025-01-01 12:33:16 +0000  225 bytes for ./Payload/AmarHaor.app/SplashScreen.storyboardc/Info.plist
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/AppIcon60x60@2x.png ... 
+2025-01-01 12:33:16 +0000  20709 bytes for ./Payload/AmarHaor.app/AppIcon60x60@2x.png
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+2025-01-01 12:33:16 +0000  518 bytes for ./Payload/AmarHaor.app/AccessibilityResources.bundle/en.lproj/Localizable.strings
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/AccessibilityResources.bundle/Info.plist ... 
+2025-01-01 12:33:16 +0000  793 bytes for ./Payload/AmarHaor.app/AccessibilityResources.bundle/Info.plist
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/Assets.car ... 
+2025-01-01 12:33:16 +0000  3183215 bytes for ./Payload/AmarHaor.app/Assets.car
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/AppIcon76x76@2x~ipad.png ... 
+2025-01-01 12:33:16 +0000  30300 bytes for ./Payload/AmarHaor.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/AmarHaor.app/AmarHaor ... 
+2025-01-01 12:33:16 +0000  5027824 bytes for ./Payload/AmarHaor.app/AmarHaor
+2025-01-01 12:33:16 +0000  copying file ./Payload/AmarHaor.app/main.jsbundle ... 
+2025-01-01 12:33:17 +0000  4534637 bytes for ./Payload/AmarHaor.app/main.jsbundle
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/EXConstants.bundle/app.config ... 
+2025-01-01 12:33:17 +0000  1034 bytes for ./Payload/AmarHaor.app/EXConstants.bundle/app.config
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/EXConstants.bundle/Info.plist ... 
+2025-01-01 12:33:17 +0000  768 bytes for ./Payload/AmarHaor.app/EXConstants.bundle/Info.plist
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib ... 
+2025-01-01 12:33:17 +0000  557952 bytes for ./Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/Frameworks/hermes.framework/_CodeSignature/CodeResources ... 
+2025-01-01 12:33:17 +0000  1798 bytes for ./Payload/AmarHaor.app/Frameworks/hermes.framework/_CodeSignature/CodeResources
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/Frameworks/hermes.framework/hermes ... 
+2025-01-01 12:33:17 +0000  3240656 bytes for ./Payload/AmarHaor.app/Frameworks/hermes.framework/hermes
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/Frameworks/hermes.framework/Info.plist ... 
+2025-01-01 12:33:17 +0000  870 bytes for ./Payload/AmarHaor.app/Frameworks/hermes.framework/Info.plist
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/embedded.mobileprovision ... 
+2025-01-01 12:33:17 +0000  14485 bytes for ./Payload/AmarHaor.app/embedded.mobileprovision
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png ... 
+2025-01-01 12:33:17 +0000  212 bytes for ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png ... 
+2025-01-01 12:33:17 +0000  163 bytes for ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png ... 
+2025-01-01 12:33:17 +0000  108 bytes for ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png ... 
+2025-01-01 12:33:17 +0000  761 bytes for ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png ... 
+2025-01-01 12:33:17 +0000  405 bytes for ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon.png ... 
+2025-01-01 12:33:17 +0000  290 bytes for ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png ... 
+2025-01-01 12:33:17 +0000  913 bytes for ./Payload/AmarHaor.app/assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/metro-runtime/assets/loader.png ... 
+2025-01-01 12:33:17 +0000  282 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/metro-runtime/assets/loader.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/metro-runtime/assets/alert-triangle.png ... 
+2025-01-01 12:33:17 +0000  609 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/metro-runtime/assets/alert-triangle.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.ttf ... 
+2025-01-01 12:33:17 +0000  313528 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.ttf ... 
+2025-01-01 12:33:17 +0000  49404 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ttf ... 
+2025-01-01 12:33:17 +0000  56228 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.ttf ... 
+2025-01-01 12:33:17 +0000  66200 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf ... 
+2025-01-01 12:33:17 +0000  134040 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf ... 
+2025-01-01 12:33:17 +0000  1147844 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.ttf ... 
+2025-01-01 12:33:17 +0000  70344 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.ttf ... 
+2025-01-01 12:33:17 +0000  56976 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf ... 
+2025-01-01 12:33:17 +0000  247192 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf ... 
+2025-01-01 12:33:17 +0000  202744 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf ... 
+2025-01-01 12:33:17 +0000  33736 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf ... 
+2025-01-01 12:33:17 +0000  165548 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.ttf ... 
+2025-01-01 12:33:17 +0000  25788 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.ttf ... 
+2025-01-01 12:33:17 +0000  13456 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.ttf ... 
+2025-01-01 12:33:17 +0000  54056 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.ttf ... 
+2025-01-01 12:33:17 +0000  230384 bytes for ./Payload/AmarHaor.app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.ttf
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/pkg.png ... 
+2025-01-01 12:33:17 +0000  429 bytes for ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/pkg.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/file.png ... 
+2025-01-01 12:33:17 +0000  158 bytes for ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/file.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/forward.png ... 
+2025-01-01 12:33:17 +0000  250 bytes for ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/forward.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/error.png ... 
+2025-01-01 12:33:17 +0000  516 bytes for ./Payload/AmarHaor.app/assets/node_modules/expo-router/assets/error.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/assets/images/govlogo.png ... 
+2025-01-01 12:33:17 +0000  260281 bytes for ./Payload/AmarHaor.app/assets/assets/images/govlogo.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/assets/images/logo_home.png ... 
+2025-01-01 12:33:17 +0000  11967 bytes for ./Payload/AmarHaor.app/assets/assets/images/logo_home.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/assets/media/map_icon.png ... 
+2025-01-01 12:33:17 +0000  6830 bytes for ./Payload/AmarHaor.app/assets/assets/media/map_icon.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/assets/media/map.png ... 
+2025-01-01 12:33:17 +0000  319166 bytes for ./Payload/AmarHaor.app/assets/assets/media/map.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/assets/media/travel_icon.png ... 
+2025-01-01 12:33:17 +0000  4370 bytes for ./Payload/AmarHaor.app/assets/assets/media/travel_icon.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/assets/assets/media/resort_icon.png ... 
+2025-01-01 12:33:17 +0000  6702 bytes for ./Payload/AmarHaor.app/assets/assets/media/resort_icon.png
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/Info.plist ... 
+2025-01-01 12:33:17 +0000  1793 bytes for ./Payload/AmarHaor.app/Info.plist
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/Expo.plist ... 
+2025-01-01 12:33:17 +0000  252 bytes for ./Payload/AmarHaor.app/Expo.plist
+2025-01-01 12:33:17 +0000  copying file ./Payload/AmarHaor.app/PkgInfo ... 
+2025-01-01 12:33:17 +0000  8 bytes for ./Payload/AmarHaor.app/PkgInfo
+2025-01-01 12:33:17 +0000  copying file ./SwiftSupport/iphoneos/libswift_Concurrency.dylib ... 
+2025-01-01 12:33:17 +0000  7741808 bytes for ./SwiftSupport/iphoneos/libswift_Concurrency.dylib
+2025-01-01 12:33:17 +0000  copying file ./Symbols/42DD2DED-62A3-3E77-963C-5E220BCCB5CA.symbols ... 
+2025-01-01 12:33:17 +0000  288452 bytes for ./Symbols/42DD2DED-62A3-3E77-963C-5E220BCCB5CA.symbols
+2025-01-01 12:33:17 +0000  copying file ./Symbols/64B536C4-7A7C-3339-BF40-EE2FF69EDB09.symbols ... 
+2025-01-01 12:33:18 +0000  16004228 bytes for ./Symbols/64B536C4-7A7C-3339-BF40-EE2FF69EDB09.symbols
+2025-01-01 12:33:18 +0000  /usr/bin/ditto exited with 0
+2025-01-01 12:33:18 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2025-01-01 12:33:18 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-01-01 12:33:18 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-01-01 12:33:18 +0000  IDEDistributionItem init <DVTFilePath:0x60000f5fa580:'/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>
+2025-01-01 12:33:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000f5fa580:'/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/libswift_Concurrency.dylib'>
+2025-01-01 12:33:18 +0000  IDEDistributionItem init <DVTFilePath:0x60001f2502a0:'/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app/Frameworks/hermes.framework'>
+2025-01-01 12:33:18 +0000  IDEDistributionItem init <DVTFilePath:0x60000f260ee0:'/var/folders/qb/5wp7d3f15gx1zyl2nq6llxr80000gp/T/XcodeDistPipeline.~~~VLyWKZ/Root/Payload/AmarHaor.app'>
+2025-01-01 12:33:18 +0000  Processing step: IDEDistributionCreateManifestStep
+2025-01-01 12:33:18 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
