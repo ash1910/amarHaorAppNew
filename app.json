@@ -1,35 +1,24 @@
 {
   "expo": {
-    "name": "Amar Haor",
+    "name": "amarhaor",
     "slug": "amarhaor",
-    "version": "1.3.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "updates": {
-      "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/c89cc165-d89a-4714-bd39-0379179dcdf0"
-    },
+    "newArchEnabled": true,
     "ios": {
-      "bundleIdentifier": "com.bdappbd2.app",
-      "buildNumber": "3",
+      "bundleIdentifier": "com.amarhaor.app",
+      "buildNumber": "1",
       "supportsTablet": true,
       "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
       "package": "com.amarhaor.app",
-      "versionCode": 3,
-      "permissions": [],
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -41,8 +30,28 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "ios": {
+            "image": "./assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff",
+            "enableFullScreenImage_legacy": true
+          },
+          "android": {
+            "image": "./assets/images/adaptive-icon.png",
+            "imageWidth": 200,
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+          }
+        }
+      ]
     ],
+    "experiments": {
+      "typedRoutes": true
+    },
     "extra": {
       "eas": {
         "projectId": "7ba7ee32-dd48-46c8-960b-cd0eec1dfc7f"
@@ -51,10 +60,6 @@
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
-    "owner": "ashraful1910",
-    "experiments": {
-      "typedRoutes": true
-    }
-
+    "owner": "ashraful1910"
   }
 }

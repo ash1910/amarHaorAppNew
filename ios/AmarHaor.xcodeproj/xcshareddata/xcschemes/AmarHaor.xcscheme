@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AmarHaor.app"
-               BlueprintName = "AmarHaor"
-               ReferencedContainer = "container:AmarHaor.xcodeproj">
+               BuildableName = "amarhaor.app"
+               BlueprintName = "amarhaor"
+               ReferencedContainer = "container:amarhaor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "AmarHaorTests.xctest"
-               BlueprintName = "AmarHaorTests"
-               ReferencedContainer = "container:AmarHaor.xcodeproj">
+               BuildableName = "amarhaorTests.xctest"
+               BlueprintName = "amarhaorTests"
+               ReferencedContainer = "container:amarhaor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AmarHaor.app"
-            BlueprintName = "AmarHaor"
-            ReferencedContainer = "container:AmarHaor.xcodeproj">
+            BuildableName = "amarhaor.app"
+            BlueprintName = "amarhaor"
+            ReferencedContainer = "container:amarhaor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AmarHaor.app"
-            BlueprintName = "AmarHaor"
-            ReferencedContainer = "container:AmarHaor.xcodeproj">
+            BuildableName = "amarhaor.app"
+            BlueprintName = "amarhaor"
+            ReferencedContainer = "container:amarhaor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
